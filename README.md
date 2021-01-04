@@ -2,10 +2,16 @@
 Welcome to the badger shop voice assistant.
 This is the shop and webhook which works in conjunction with the WiscShop Voice User Inteface made in Google's DialogFlow.
 
-The Dialog flow agent zip folder is included in this repository. This can be imported into Dialog flow to run with the shop and webhook.
+The Dialog flow agent zip folder is included in this repository. This can be imported into Dialogflow to run with the shop and webhook.
 
 Badger shop website is made using react. Webhook is make using javascript. 
 
+# To Run
+(Ran in VS code in testing and development)
+With npm packages installed installed and agent imported into Dialogflow, run the command "npm start" to bring up the wisc shop page.
+open a new, concurrent terminal and type "npm run tunnel" and copy the link provided into the "fullfilment" tab of dialogflow.
+open one more new terminal and type "npm run dev"
+Use Dialog flow's console to use the program.
 
 # WiscShop API
 
